@@ -16,6 +16,18 @@ export function Navbar() {
           >
             Home
           </Link>
+          <Link
+            href="/grade-11"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Grade 11
+          </Link>
+          <Link
+            href="/grade-12"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Grade 12
+          </Link>
         </div>
       </div>
     </nav>
